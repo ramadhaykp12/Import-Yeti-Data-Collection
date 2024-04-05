@@ -23,8 +23,8 @@ username_input = driver.find_element(By.ID,"user_email")
 password_input = driver.find_element(By.ID,"password")
 login_button = driver.find_element(By.ID,"send_profile")
 
-username_input.send_keys("leifjenkins.id@gmail.com")
-password_input.send_keys("Importyeti123/")
+username_input.send_keys(" ")
+password_input.send_keys(" ")
 
 # Klik tombol login
 login_button.click()
